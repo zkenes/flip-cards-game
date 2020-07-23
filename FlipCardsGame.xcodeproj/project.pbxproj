@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAB0FAF424CA211A0058B0C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0FAF324CA211A0058B0C9 /* AppDelegate.swift */; };
+		AAB0FAF624CA211A0058B0C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0FAF524CA211A0058B0C9 /* SceneDelegate.swift */; };
+		AAB0FAF824CA211A0058B0C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0FAF724CA211A0058B0C9 /* ViewController.swift */; };
+		AAB0FAFB24CA211A0058B0C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB0FAF924CA211A0058B0C9 /* Main.storyboard */; };
+		AAB0FAFD24CA211B0058B0C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB0FAFC24CA211B0058B0C9 /* Assets.xcassets */; };
+		AAB0FB0024CA211B0058B0C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB0FAFE24CA211B0058B0C9 /* LaunchScreen.storyboard */; };
+		AAB0FB0B24CA211B0058B0C9 /* FlipCardsGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0FB0A24CA211B0058B0C9 /* FlipCardsGameTests.swift */; };
+		AAB0FB1624CA211B0058B0C9 /* FlipCardsGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0FB1524CA211B0058B0C9 /* FlipCardsGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAB0FB0724CA211B0058B0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB0FAE824CA211A0058B0C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB0FAEF24CA211A0058B0C9;
+			remoteInfo = FlipCardsGame;
+		};
+		AAB0FB1224CA211B0058B0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB0FAE824CA211A0058B0C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB0FAEF24CA211A0058B0C9;
+			remoteInfo = FlipCardsGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAB0FAF024CA211A0058B0C9 /* FlipCardsGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipCardsGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB0FAF324CA211A0058B0C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAB0FAF524CA211A0058B0C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AAB0FAF724CA211A0058B0C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAB0FAFA24CA211A0058B0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAB0FAFC24CA211B0058B0C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAB0FAFF24CA211B0058B0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAB0FB0124CA211B0058B0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB0FB0624CA211B0058B0C9 /* FlipCardsGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipCardsGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB0FB0A24CA211B0058B0C9 /* FlipCardsGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardsGameTests.swift; sourceTree = "<group>"; };
+		AAB0FB0C24CA211B0058B0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB0FB1124CA211B0058B0C9 /* FlipCardsGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipCardsGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB0FB1524CA211B0058B0C9 /* FlipCardsGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardsGameUITests.swift; sourceTree = "<group>"; };
+		AAB0FB1724CA211B0058B0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB0FAED24CA211A0058B0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB0FB0324CA211B0058B0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB0FB0E24CA211B0058B0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAB0FAE724CA211A0058B0C9 = {
+			isa = PBXGroup;
+			children = (
+				AAB0FAF224CA211A0058B0C9 /* FlipCardsGame */,
+				AAB0FB0924CA211B0058B0C9 /* FlipCardsGameTests */,
+				AAB0FB1424CA211B0058B0C9 /* FlipCardsGameUITests */,
+				AAB0FAF124CA211A0058B0C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB0FAF124CA211A0058B0C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0FAF024CA211A0058B0C9 /* FlipCardsGame.app */,
+				AAB0FB0624CA211B0058B0C9 /* FlipCardsGameTests.xctest */,
+				AAB0FB1124CA211B0058B0C9 /* FlipCardsGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB0FAF224CA211A0058B0C9 /* FlipCardsGame */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0FAF324CA211A0058B0C9 /* AppDelegate.swift */,
+				AAB0FAF524CA211A0058B0C9 /* SceneDelegate.swift */,
+				AAB0FAF724CA211A0058B0C9 /* ViewController.swift */,
+				AAB0FAF924CA211A0058B0C9 /* Main.storyboard */,
+				AAB0FAFC24CA211B0058B0C9 /* Assets.xcassets */,
+				AAB0FAFE24CA211B0058B0C9 /* LaunchScreen.storyboard */,
+				AAB0FB0124CA211B0058B0C9 /* Info.plist */,
+			);
+			path = FlipCardsGame;
+			sourceTree = "<group>";
+		};
+		AAB0FB0924CA211B0058B0C9 /* FlipCardsGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0FB0A24CA211B0058B0C9 /* FlipCardsGameTests.swift */,
+				AAB0FB0C24CA211B0058B0C9 /* Info.plist */,
+			);
+			path = FlipCardsGameTests;
+			sourceTree = "<group>";
+		};
+		AAB0FB1424CA211B0058B0C9 /* FlipCardsGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0FB1524CA211B0058B0C9 /* FlipCardsGameUITests.swift */,
+				AAB0FB1724CA211B0058B0C9 /* Info.plist */,
+			);
+			path = FlipCardsGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB0FAEF24CA211A0058B0C9 /* FlipCardsGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB0FB1A24CA211B0058B0C9 /* Build configuration list for PBXNativeTarget "FlipCardsGame" */;
+			buildPhases = (
+				AAB0FAEC24CA211A0058B0C9 /* Sources */,
+				AAB0FAED24CA211A0058B0C9 /* Frameworks */,
+				AAB0FAEE24CA211A0058B0C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipCardsGame;
+			productName = FlipCardsGame;
+			productReference = AAB0FAF024CA211A0058B0C9 /* FlipCardsGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAB0FB0524CA211B0058B0C9 /* FlipCardsGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB0FB1D24CA211B0058B0C9 /* Build configuration list for PBXNativeTarget "FlipCardsGameTests" */;
+			buildPhases = (
+				AAB0FB0224CA211B0058B0C9 /* Sources */,
+				AAB0FB0324CA211B0058B0C9 /* Frameworks */,
+				AAB0FB0424CA211B0058B0C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB0FB0824CA211B0058B0C9 /* PBXTargetDependency */,
+			);
+			name = FlipCardsGameTests;
+			productName = FlipCardsGameTests;
+			productReference = AAB0FB0624CA211B0058B0C9 /* FlipCardsGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAB0FB1024CA211B0058B0C9 /* FlipCardsGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB0FB2024CA211B0058B0C9 /* Build configuration list for PBXNativeTarget "FlipCardsGameUITests" */;
+			buildPhases = (
+				AAB0FB0D24CA211B0058B0C9 /* Sources */,
+				AAB0FB0E24CA211B0058B0C9 /* Frameworks */,
+				AAB0FB0F24CA211B0058B0C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB0FB1324CA211B0058B0C9 /* PBXTargetDependency */,
+			);
+			name = FlipCardsGameUITests;
+			productName = FlipCardsGameUITests;
+			productReference = AAB0FB1124CA211B0058B0C9 /* FlipCardsGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB0FAE824CA211A0058B0C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Zhanserik Kenes";
+				TargetAttributes = {
+					AAB0FAEF24CA211A0058B0C9 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					AAB0FB0524CA211B0058B0C9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = AAB0FAEF24CA211A0058B0C9;
+					};
+					AAB0FB1024CA211B0058B0C9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = AAB0FAEF24CA211A0058B0C9;
+					};
+				};
+			};
+			buildConfigurationList = AAB0FAEB24CA211A0058B0C9 /* Build configuration list for PBXProject "FlipCardsGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAB0FAE724CA211A0058B0C9;
+			productRefGroup = AAB0FAF124CA211A0058B0C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB0FAEF24CA211A0058B0C9 /* FlipCardsGame */,
+				AAB0FB0524CA211B0058B0C9 /* FlipCardsGameTests */,
+				AAB0FB1024CA211B0058B0C9 /* FlipCardsGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB0FAEE24CA211A0058B0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB0FB0024CA211B0058B0C9 /* LaunchScreen.storyboard in Resources */,
+				AAB0FAFD24CA211B0058B0C9 /* Assets.xcassets in Resources */,
+				AAB0FAFB24CA211A0058B0C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB0FB0424CA211B0058B0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB0FB0F24CA211B0058B0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB0FAEC24CA211A0058B0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB0FAF824CA211A0058B0C9 /* ViewController.swift in Sources */,
+				AAB0FAF424CA211A0058B0C9 /* AppDelegate.swift in Sources */,
+				AAB0FAF624CA211A0058B0C9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB0FB0224CA211B0058B0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB0FB0B24CA211B0058B0C9 /* FlipCardsGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB0FB0D24CA211B0058B0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB0FB1624CA211B0058B0C9 /* FlipCardsGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAB0FB0824CA211B0058B0C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB0FAEF24CA211A0058B0C9 /* FlipCardsGame */;
+			targetProxy = AAB0FB0724CA211B0058B0C9 /* PBXContainerItemProxy */;
+		};
+		AAB0FB1324CA211B0058B0C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB0FAEF24CA211A0058B0C9 /* FlipCardsGame */;
+			targetProxy = AAB0FB1224CA211B0058B0C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAB0FAF924CA211A0058B0C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB0FAFA24CA211A0058B0C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAB0FAFE24CA211B0058B0C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB0FAFF24CA211B0058B0C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAB0FB1824CA211B0058B0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAB0FB1924CA211B0058B0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAB0FB1B24CA211B0058B0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlipCardsGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tinker.FlipCardsGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAB0FB1C24CA211B0058B0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlipCardsGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tinker.FlipCardsGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAB0FB1E24CA211B0058B0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlipCardsGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tinker.FlipCardsGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipCardsGame.app/FlipCardsGame";
+			};
+			name = Debug;
+		};
+		AAB0FB1F24CA211B0058B0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlipCardsGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tinker.FlipCardsGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipCardsGame.app/FlipCardsGame";
+			};
+			name = Release;
+		};
+		AAB0FB2124CA211B0058B0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlipCardsGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tinker.FlipCardsGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlipCardsGame;
+			};
+			name = Debug;
+		};
+		AAB0FB2224CA211B0058B0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlipCardsGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tinker.FlipCardsGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlipCardsGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB0FAEB24CA211A0058B0C9 /* Build configuration list for PBXProject "FlipCardsGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB0FB1824CA211B0058B0C9 /* Debug */,
+				AAB0FB1924CA211B0058B0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB0FB1A24CA211B0058B0C9 /* Build configuration list for PBXNativeTarget "FlipCardsGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB0FB1B24CA211B0058B0C9 /* Debug */,
+				AAB0FB1C24CA211B0058B0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB0FB1D24CA211B0058B0C9 /* Build configuration list for PBXNativeTarget "FlipCardsGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB0FB1E24CA211B0058B0C9 /* Debug */,
+				AAB0FB1F24CA211B0058B0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB0FB2024CA211B0058B0C9 /* Build configuration list for PBXNativeTarget "FlipCardsGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB0FB2124CA211B0058B0C9 /* Debug */,
+				AAB0FB2224CA211B0058B0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAB0FAE824CA211A0058B0C9 /* Project object */;
+}
